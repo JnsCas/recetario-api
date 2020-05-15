@@ -1,0 +1,19 @@
+{
+  "name": "recetario-api",
+  "version": "0.0.1",
+  "description": "code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jnscas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
