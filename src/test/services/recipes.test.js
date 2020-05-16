@@ -5,7 +5,7 @@ const {
 } = require('../../main/services/recipes')
 
 
-describe('Recipes Router', () => {
+describe('Recipes Routes', () => {
   it('should return all recipes', () => {
     let result = getAllRecipes();
     assert.strictEqual(result.length, 2);
