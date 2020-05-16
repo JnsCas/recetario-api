@@ -1,0 +1,46 @@
+[
+  {
+    "id": "da911b7c-614a-4e59-a1be-37da4a3e0aac",
+    "name": "Arroz con pollo",
+    "ingredients": [
+      {
+        "id": "97d73101-3bd1-4cfc-aeae-3d2d20557a57",
+        "name": "Cebolla",
+        "quantityKg": 0.5
+      },
+      {
+        "id": "b97f3cdc-d039-47a1-9763-d2ec5e704cf3",
+        "name": "Tomate",
+        "quantityKg": 1
+      }
+    ],
+    "peopleQuantity": 2,
+    "steps": [
+      "cortar el pollo",
+      "hervir arroz"
+    ],
+    "score": 0
+  },
+  {
+    "id": "6eb38fa8-554c-4e40-9c8c-fcbff3e62123",
+    "name": "Milanesa",
+    "ingredients": [
+      {
+        "id": "64dc253a-d258-4b01-ad78-1229502f48c5",
+        "name": "Pan rallado",
+        "quantityKg": 0.5
+      },
+      {
+        "id": "53758326-dc72-4f14-a2df-e66c46ec0570",
+        "name": "carne",
+        "quantityKg": 1
+      }
+    ],
+    "peopleQuantity": 2,
+    "steps": [
+      "cortar la carne",
+      "empanar"
+    ],
+    "score": 0
+  }
+]

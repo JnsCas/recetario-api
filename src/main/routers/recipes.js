@@ -1,14 +1,19 @@
-const Recipe = require('../model/Recipe');
+const {
+  getRecipesByNameOrIngredient,
+  getAllRecipes
+} = require('../services/recipes')
 
-const recipes = [
-  new Recipe(
-    "Arroz con pollo",
-    [],
-    2,
-    ["cortar el pollo", "hervir arroz"])
-] //FIXME take it from file.json in the project
-
+/**
+ * Get recipes.
+ *
+ * @param req The optional 'filter' query param filters by recipe name or ingredient name.
+ * @param res Return filtered recipes if the 'filter' is received, otherwise return all recipes.
+ */
 module.exports.getRecipes = (req, res) => {
-  res.json(recipes);
-
+  const toSearch = req.query.filter;
+  if (toSearch) {
+    return res.json(getRecipesByNameOrIngredient(toSearch));
+  } else {
+    return res.json(getAllRecipes());
+  }
 }
