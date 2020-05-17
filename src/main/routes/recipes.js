@@ -1,6 +1,7 @@
 const {
   getRecipesByNameOrIngredient,
-  getAllRecipes
+  getAllRecipes,
+  putScore
 } = require('../services/recipes')
 
 /**
@@ -15,5 +16,16 @@ module.exports.getRecipes = (req, res) => {
     return res.json(getRecipesByNameOrIngredient(toSearch));
   } else {
     return res.json(getAllRecipes());
+  }
+}
+
+module.exports.putScore = (req, res) => {
+  const idRecipe = req.params.id
+  const score = req.body.score
+  const recipe = putScore(idRecipe, score)
+  if (recipe) {
+    return res.json(recipe)
+  } else {
+    return res.sendStatus(404)
   }
 }
