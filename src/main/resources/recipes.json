@@ -19,7 +19,7 @@
       "cortar el pollo",
       "hervir arroz"
     ],
-    "score": 0
+    "scores": [4, 2, 1, 5]
   },
   {
     "id": "6eb38fa8-554c-4e40-9c8c-fcbff3e62123",
@@ -41,6 +41,6 @@
       "cortar la carne",
       "empanar"
     ],
-    "score": 0
+    "scores": [4, 2, 1, 5, 2, 1, 4, 5]
   }
 ]
