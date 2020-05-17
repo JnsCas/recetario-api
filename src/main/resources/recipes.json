@@ -20,19 +20,7 @@
       "hervir arroz"
     ],
     "scores": [
-      4,
-      2,
-      1,
-      5,
-      1,
-      1,
-      1,
-      5,
-      1,
-      1,
-      1,
-      1,
-      1
+      4
     ]
   },
   {
@@ -57,19 +45,33 @@
     ],
     "scores": [
       4,
-      2,
+      2
+    ]
+  },
+  {
+    "id": "6eb38fa8-554c-4e40-9c8c-fcbff3e62124",
+    "name": "Fideos con salsa",
+    "ingredients": [
+      {
+        "id": "64dc253a-d258-4b01-ad78-1229502f48c6",
+        "name": "Tomate",
+        "quantityKg": 1
+      },
+      {
+        "id": "53758326-dc72-4f14-a2df-e66c46ec0571",
+        "name": "Fideos",
+        "quantityKg": 0.5
+      }
+    ],
+    "peopleQuantity": 2,
+    "steps": [
+      "cortar el tomate",
+      "amasar fideos"
+    ],
+    "scores": [
+      5,
       1,
-      5,
-      2,
-      1,
-      4,
-      5,
-      5,
-      5,
-      5,
-      2,
-      1,
-      1
+      5
     ]
   }
 ]

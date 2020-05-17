@@ -2,8 +2,10 @@
   "name": "recetario-api",
   "version": "0.0.1",
   "description": "code challenge",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "scripts": {
+    "prestart": "npm test",
+    "start": "node src/main/index.js",
     "test": "mocha 'src/test/**'"
   },
   "author": "jnscas",
