@@ -2,4 +2,4 @@
 recetario backend
 
 #### run server with: 
-`npm start`
+`npm install && npm start`
